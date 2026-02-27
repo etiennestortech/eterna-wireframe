@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Eterna</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-neutral-900 font-sans">
+
+  <!-- Nav -->
+  <header class="sticky top-0 bg-white border-b border-neutral-200 z-50">
+    <nav class="max-w-6xl mx-auto px-8 flex items-center gap-8 h-14">
+      <a href="index.html" class="font-bold text-neutral-900 no-underline whitespace-nowrap">Eterna</a>
+      <ul class="flex items-center gap-7 list-none flex-1 justify-end">
+        <li><a href="product.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">The Capsule Pyrale</a></li>
+        <li><a href="about.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">About Us</a></li>
+        <li><a href="pre-planning.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">Pre-Planning</a></li>
+        <li><a href="blog.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">Blog</a></li>
+        <li><a href="find-partner.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">Find a Partner</a></li>
+        <li><a href="contact.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">Contact</a></li>
+        <li><a href="contact.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">Book a Consultation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-8">
+
+    <!-- 1. Hero -->
+    <section class="py-16 border-b border-neutral-200">
+      <h1 class="text-4xl font-bold text-neutral-900 mb-10">We're here to help.</h1>
+      <div class="grid grid-cols-4 gap-6">
+        <div class="border border-neutral-200 p-5">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Phone</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-1">1 844 695-5613</p>
+          <p class="text-sm text-neutral-500">Speak with our team directly. We are here to answer your questions with care.</p>
+        </div>
+        <div class="border border-neutral-200 p-5">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Email</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-1">info@pyramidestal.com</p>
+          <p class="text-sm text-neutral-500">We respond within one business day, often sooner.</p>
+        </div>
+        <div class="border border-neutral-200 p-5">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Hours</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-1">Mon–Fri 9am–5pm</p>
+          <p class="text-sm text-neutral-500">Closed weekends and holidays.</p>
+        </div>
+        <div class="border border-neutral-200 p-5">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Location</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-1">Granby, Québec</p>
+          <p class="text-sm text-neutral-500">411 Saint-Vallier, Granby, Québec J2G 7Y2, Canada</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Intent Selector -->
+    <section class="py-12 border-b border-neutral-200">
+      <h2 class="text-2xl font-bold text-neutral-900 mb-8">How can we help you?</h2>
+      <div class="grid grid-cols-3 gap-6">
+        <label class="border border-neutral-200 p-5 cursor-pointer flex gap-4 items-start">
+          <input type="radio" name="intent" class="mt-1 accent-neutral-700" checked>
+          <div>
+            <p class="font-semibold text-neutral-900 mb-1">I'm a family seeking information</p>
+            <p class="text-sm text-neutral-500">You would like to learn more about the Capsule Pyrale for yourself or a loved one.</p>
+          </div>
+        </label>
+        <label class="border border-neutral-200 p-5 cursor-pointer flex gap-4 items-start">
+          <input type="radio" name="intent" class="mt-1 accent-neutral-700">
+          <div>
+            <p class="font-semibold text-neutral-900 mb-1">I have an immediate need</p>
+            <p class="text-sm text-neutral-500">A death has occurred and you need assistance now. We will prioritize your inquiry.</p>
+          </div>
+        </label>
+        <label class="border border-neutral-200 p-5 cursor-pointer flex gap-4 items-start">
+          <input type="radio" name="intent" class="mt-1 accent-neutral-700">
+          <div>
+            <p class="font-semibold text-neutral-900 mb-1">I'm a funeral home / partner</p>
+            <p class="text-sm text-neutral-500">You represent a funeral home or organization interested in offering the Capsule Pyrale.</p>
+          </div>
+        </label>
+      </div>
+    </section>
+
+    <!-- 3. Contact Form + Sidebar -->
+    <section class="py-12 border-b border-neutral-200">
+      <div class="grid gap-12" style="grid-template-columns: 3fr 2fr;">
+
+        <!-- Form -->
+        <div>
+          <h2 class="text-2xl font-bold text-neutral-900 mb-8">Send us a message</h2>
+          <form class="space-y-6">
+
+            <fieldset class="border-0 p-0 m-0">
+              <legend class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-4">Your Information</legend>
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                <div>
+                  <label for="first-name" class="block text-sm font-medium text-neutral-700 mb-1">First Name</label>
+                  <input type="text" id="first-name" name="first-name" placeholder="Jean" class="w-full border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder-neutral-400 focus:outline-none focus:border-neutral-500">
+                </div>
+                <div>
+                  <label for="last-name" class="block text-sm font-medium text-neutral-700 mb-1">Last Name</label>
+                  <input type="text" id="last-name" name="last-name" placeholder="Tremblay" class="w-full border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder-neutral-400 focus:outline-none focus:border-neutral-500">
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-neutral-700 mb-1">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="jean@example.com" class="w-full border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder-neutral-400 focus:outline-none focus:border-neutral-500">
+              </div>
+              <div class="mb-4">
+                <label for="phone" class="block text-sm font-medium text-neutral-700 mb-1">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="514-555-0100" class="w-full border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder-neutral-400 focus:outline-none focus:border-neutral-500">
+              </div>
+            </fieldset>
+
+            <fieldset class="border-0 p-0 m-0">
+              <legend class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-4">Subject</legend>
+              <div class="mb-4">
+                <label for="subject" class="block text-sm font-medium text-neutral-700 mb-1">Nature of your inquiry</label>
+                <select id="subject" name="subject" class="w-full border border-neutral-300 px-3 py-2 text-sm text-neutral-900 focus:outline-none focus:border-neutral-500 bg-white">
+                  <option value="" disabled selected>Select an inquiry type</option>
+                  <option>I'm a family looking for information</option>
+                  <option>I'm a funeral home interested in partnering</option>
+                  <option>I'm planning ahead (pre-need)</option>
+                  <option>International transport / repatriation inquiry</option>
+                  <option>Press or media inquiry</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div>
+                <label for="contact-time" class="block text-sm font-medium text-neutral-700 mb-1">Preferred Contact Time</label>
+                <select id="contact-time" name="contact-time" class="w-full border border-neutral-300 px-3 py-2 text-sm text-neutral-900 focus:outline-none focus:border-neutral-500 bg-white">
+                  <option value="" disabled selected>Select a time window</option>
+                  <option>Morning (9am–12pm)</option>
+                  <option>Afternoon (12pm–3pm)</option>
+                  <option>Late afternoon (3pm–5pm)</option>
+                  <option>No preference</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <fieldset class="border-0 p-0 m-0">
+              <legend class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-4">Message</legend>
+              <div>
+                <label for="message" class="block text-sm font-medium text-neutral-700 mb-1">How can we help?</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us a little about your situation or what you'd like to know..." class="w-full border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder-neutral-400 focus:outline-none focus:border-neutral-500 resize-none"></textarea>
+              </div>
+            </fieldset>
+
+            <button type="submit" class="bg-neutral-900 text-white text-sm font-semibold px-6 py-3 hover:bg-neutral-700">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Sidebar -->
+        <div>
+          <div class="bg-neutral-50 border border-neutral-200 p-6 sticky top-24">
+            <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-4 pb-2 border-b border-neutral-200">Contact Details</p>
+            <div class="space-y-4 mb-6">
+              <div>
+                <p class="text-sm font-semibold text-neutral-900">Phone</p>
+                <a href="tel:+18446955613" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">1 844 695-5613</a>
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-neutral-900">Email</p>
+                <a href="mailto:info@pyramidestal.com" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline">info@pyramidestal.com</a>
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-neutral-900">Address</p>
+                <address class="not-italic text-sm text-neutral-500 leading-relaxed">411 Saint-Vallier<br>Granby, Québec J2G 7Y2<br>Canada</address>
+              </div>
+            </div>
+            <div class="border-t border-neutral-200 pt-4 mb-6">
+              <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-2">Hours</p>
+              <p class="text-sm text-neutral-500 leading-relaxed">Monday – Friday, 9am – 5pm<br>Closed weekends</p>
+            </div>
+            <div class="bg-white border border-neutral-200 p-4">
+              <p class="text-xs font-semibold text-neutral-900 mb-1">Our response promise</p>
+              <p class="text-sm text-neutral-500">We reply to every message within one business day. For immediate needs, please call us — a real person will answer.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. Map -->
+    <section class="py-12 border-b border-neutral-200">
+      <h2 class="text-2xl font-bold text-neutral-900 mb-6">Our Location</h2>
+      <div class="min-h-64 bg-neutral-200 flex items-center justify-center text-neutral-400 text-sm">[Google Maps — 411 Saint-Vallier, Granby, Québec J2G 7Y2]</div>
+    </section>
+
+    <!-- 5. All Channels -->
+    <section class="py-12 border-b border-neutral-200">
+      <h2 class="text-2xl font-bold text-neutral-900 mb-8">Other ways to reach us</h2>
+      <div class="grid grid-cols-4 gap-6">
+        <div class="border border-neutral-200 p-5 text-center">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Phone</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-2">1 844 695-5613</p>
+          <a href="tel:+18446955613" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline border-b border-neutral-300">Call now</a>
+        </div>
+        <div class="border border-neutral-200 p-5 text-center">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Email</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-2">info@pyramidestal.com</p>
+          <a href="mailto:info@pyramidestal.com" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline border-b border-neutral-300">Send email</a>
+        </div>
+        <div class="border border-neutral-200 p-5 text-center">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Partner Inquiries</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-2">Funeral home partnerships</p>
+          <a href="become-partner.html" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline border-b border-neutral-300">Learn more</a>
+        </div>
+        <div class="border border-neutral-200 p-5 text-center">
+          <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-3">Consultation</p>
+          <p class="text-sm font-semibold text-neutral-900 mb-2">Book a conversation</p>
+          <a href="#" class="text-sm text-neutral-500 hover:text-neutral-900 no-underline border-b border-neutral-300">Book now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Hours -->
+    <section class="py-8 border-b border-neutral-200">
+      <h2 class="text-2xl font-bold text-neutral-900 mb-6">Hours of Operation</h2>
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-neutral-200">
+            <th class="text-left py-2 pr-8 font-semibold text-neutral-700 w-40">Day</th>
+            <th class="text-left py-2 font-semibold text-neutral-700">Hours</th>
+          </tr>
+        </thead>
+        <tbody class="text-neutral-500">
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Monday</td>
+            <td class="py-2">9:00 am – 5:00 pm</td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Tuesday</td>
+            <td class="py-2">9:00 am – 5:00 pm</td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Wednesday</td>
+            <td class="py-2">9:00 am – 5:00 pm</td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Thursday</td>
+            <td class="py-2">9:00 am – 5:00 pm</td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Friday</td>
+            <td class="py-2">9:00 am – 5:00 pm</td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Saturday</td>
+            <td class="py-2">Closed</td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Sunday</td>
+            <td class="py-2">Closed</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 7. Service Coverage -->
+    <section class="py-12">
+      <h2 class="text-2xl font-bold text-neutral-900 mb-2">Service Coverage</h2>
+      <p class="text-sm text-neutral-500 mb-8">Eterna serves families and funeral home partners across Canada and the United States. In most regions, the Capsule Pyrale is available through our certified partner funeral homes.</p>
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-neutral-300">
+            <th class="text-left py-2 pr-8 font-semibold text-neutral-700">Province / Region</th>
+            <th class="text-left py-2 pr-8 font-semibold text-neutral-700">Service Type</th>
+            <th class="text-left py-2 font-semibold text-neutral-700">Contact</th>
+          </tr>
+        </thead>
+        <tbody class="text-neutral-500">
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Quebec</td>
+            <td class="py-2 pr-8">Direct + Partner network</td>
+            <td class="py-2"><a href="mailto:info@pyramidestal.com" class="text-neutral-500 hover:text-neutral-900 no-underline">info@pyramidestal.com</a></td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Ontario</td>
+            <td class="py-2 pr-8">Partner network</td>
+            <td class="py-2"><a href="find-partner.html" class="text-neutral-500 hover:text-neutral-900 no-underline">Find a partner</a></td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">British Columbia</td>
+            <td class="py-2 pr-8">Partner network</td>
+            <td class="py-2"><a href="find-partner.html" class="text-neutral-500 hover:text-neutral-900 no-underline">Find a partner</a></td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Alberta</td>
+            <td class="py-2 pr-8">Partner network</td>
+            <td class="py-2"><a href="find-partner.html" class="text-neutral-500 hover:text-neutral-900 no-underline">Find a partner</a></td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">Other Canadian provinces</td>
+            <td class="py-2 pr-8">Inquiry basis</td>
+            <td class="py-2"><a href="mailto:info@pyramidestal.com" class="text-neutral-500 hover:text-neutral-900 no-underline">info@pyramidestal.com</a></td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">United States</td>
+            <td class="py-2 pr-8">Certified — inquiry basis</td>
+            <td class="py-2"><a href="mailto:info@pyramidestal.com" class="text-neutral-500 hover:text-neutral-900 no-underline">info@pyramidestal.com</a></td>
+          </tr>
+          <tr class="border-b border-neutral-100">
+            <td class="py-2 pr-8 font-medium text-neutral-900">International repatriation</td>
+            <td class="py-2 pr-8">Case by case</td>
+            <td class="py-2"><a href="mailto:info@pyramidestal.com" class="text-neutral-500 hover:text-neutral-900 no-underline">info@pyramidestal.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-neutral-900 text-neutral-400 mt-0">
+    <div class="max-w-6xl mx-auto px-8 py-14 grid grid-cols-4 gap-12">
+      <div>
+        <p class="font-bold text-white mb-3">Eterna</p>
+        <address class="not-italic text-sm text-neutral-500 leading-relaxed">
+          411 Saint-Vallier<br>Granby, Québec J2G 7Y2<br>Canada
+          <br><a href="tel:+18446955613" class="text-neutral-500 hover:text-white no-underline">1 844 695-5613</a>
+          <br><a href="mailto:info@pyramidestal.com" class="text-neutral-500 hover:text-white no-underline">info@pyramidestal.com</a>
+        </address>
+      </div>
+      <div>
+        <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-4 pb-2 border-b border-neutral-800">Products</p>
+        <ul class="list-none space-y-2">
+          <li><a href="product.html" class="text-sm text-neutral-500 hover:text-white no-underline">The Capsule Pyrale</a></li>
+          <li><a href="product.html#how-it-works" class="text-sm text-neutral-500 hover:text-white no-underline">How It Works</a></li>
+          <li><a href="lead-gen.html" class="text-sm text-neutral-500 hover:text-white no-underline">Request a Quote</a></li>
+          <li><a href="find-partner.html" class="text-sm text-neutral-500 hover:text-white no-underline">Find a Partner Funeral Home</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-4 pb-2 border-b border-neutral-800">Company</p>
+        <ul class="list-none space-y-2">
+          <li><a href="about.html" class="text-sm text-neutral-500 hover:text-white no-underline">About Us</a></li>
+          <li><a href="pre-planning.html" class="text-sm text-neutral-500 hover:text-white no-underline">Pre-Planning</a></li>
+          <li><a href="blog.html" class="text-sm text-neutral-500 hover:text-white no-underline">Blog</a></li>
+          <li><a href="contact.html" class="text-sm text-neutral-500 hover:text-white no-underline">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-4 pb-2 border-b border-neutral-800">Contact &amp; Support</p>
+        <p class="text-sm text-neutral-500 mb-1"><a href="tel:+18446955613" class="text-neutral-500 hover:text-white no-underline">1 844 695-5613</a></p>
+        <p class="text-sm text-neutral-500 mb-1"><a href="mailto:info@pyramidestal.com" class="text-neutral-500 hover:text-white no-underline">info@pyramidestal.com</a></p>
+        <p class="text-sm text-neutral-500">Mon–Fri 9am–5pm ET</p>
+      </div>
+    </div>
+    <div class="border-t border-neutral-800 max-w-6xl mx-auto px-8 py-6">
+      <p class="text-xs text-neutral-600">&copy; 2026 Eterna. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

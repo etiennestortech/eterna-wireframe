@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Step 2 — Configure | Eterna</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-neutral-900 font-sans">
+
+  <!-- FUNNEL NAV -->
+  <header class="sticky top-0 bg-white border-b border-neutral-200 z-50">
+    <nav class="max-w-6xl mx-auto px-8 flex items-center justify-between h-14">
+      <a href="index.html" class="font-bold text-neutral-900 no-underline">Eterna</a>
+      <a href="tel:+18446955613" class="text-sm text-neutral-500 no-underline">1 844 695-5613</a>
+    </nav>
+  </header>
+
+  <!-- FUNNEL STEP INDICATOR -->
+  <nav class="bg-neutral-50 border-b border-neutral-200">
+    <ol class="max-w-6xl mx-auto px-8 flex items-center h-12 list-none gap-0 text-xs text-neutral-400">
+      <li>Step 1 — Checklist</li>
+      <li class="px-3 text-neutral-200">→</li>
+      <li class="font-bold text-neutral-900">Step 2 — Configure</li>
+      <li class="px-3 text-neutral-200">→</li>
+      <li>Step 3 — Quote</li>
+      <li class="px-3 text-neutral-200">→</li>
+      <li>Step 4 — Request</li>
+      <li class="px-3 text-neutral-200">→</li>
+      <li>Step 5 — Confirmation</li>
+    </ol>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-8 py-12">
+
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold text-neutral-900 mb-2">Configure Your Capsule Pyrale</h1>
+      <p class="text-sm text-neutral-500">Select your preferred options below. Your choices will be included in your quote request. No pricing is displayed — a Eterna advisor will prepare a personalized quote based on your selection.</p>
+    </div>
+
+    <!-- CAPSULE PREVIEW PLACEHOLDER -->
+    <div class="bg-neutral-200 w-full min-h-56 flex items-center justify-center text-neutral-400 text-sm mb-8 border border-neutral-300">
+      [ Capsule Pyrale Product Image — updates with selection ]
+    </div>
+
+    <!-- PRODUCT DESCRIPTION -->
+    <div class="bg-neutral-50 border border-neutral-200 p-5 mb-6">
+      <p class="text-xs font-semibold text-neutral-500 uppercase tracking-widest mb-2">About the Capsule Pyrale</p>
+      <p class="text-sm text-neutral-600 leading-relaxed">The Capsule Pyrale is an innovative hermetic funeral container made of recyclable aluminum with an ultra-resistant polycarbonate cover. The body is sealed with inert nitrogen gas, which naturally dries the body — preventing decomposition without any chemicals, embalming fluids, or odors. Estimated preservation: 60 to 100 years. 100% Québec manufacturing. Lifetime warranty.</p>
+    </div>
+
+    <form action="funnel-step3.html" method="get" class="space-y-0">
+
+      <!-- FIELDSET 1: Color -->
+      <fieldset class="border border-neutral-200 p-5 mb-4">
+        <legend class="text-xs font-semibold text-neutral-500 uppercase tracking-widest px-1">Color</legend>
+        <p class="text-xs text-neutral-400 mb-4">Smooth matte high-end finish. Both options available in full production.</p>
+        <div class="space-y-3">
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="color" value="black" class="accent-neutral-900 w-4 h-4" checked />
+            <div class="w-5 h-5 bg-neutral-900 border border-neutral-300 flex-shrink-0"></div>
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Black</span>
+              <span class="text-xs text-neutral-400 ml-3">Matte black — striking, dignified, and refined</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="color" value="white" class="accent-neutral-900 w-4 h-4" />
+            <div class="w-5 h-5 bg-white border border-neutral-300 flex-shrink-0"></div>
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">White</span>
+              <span class="text-xs text-neutral-400 ml-3">Matte white — pure, serene, and luminous</span>
+            </div>
+          </label>
+        </div>
+      </fieldset>
+
+      <!-- FIELDSET 2: Interior LED Color -->
+      <fieldset class="border border-neutral-200 p-5 mb-4">
+        <legend class="text-xs font-semibold text-neutral-500 uppercase tracking-widest px-1">Interior LED Color</legend>
+        <p class="text-xs text-neutral-400 mb-4">Integrated LED strips line the interior of the capsule, creating a soothing, luminous atmosphere.</p>
+        <div class="space-y-3">
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="led" value="white" class="accent-neutral-900 w-4 h-4" checked />
+            <div class="w-5 h-5 bg-white border border-neutral-300 flex-shrink-0"></div>
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">White</span>
+              <span class="text-xs text-neutral-400 ml-3">Clean and classic — clear, neutral light</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="led" value="warm" class="accent-neutral-900 w-4 h-4" />
+            <div class="w-5 h-5 bg-amber-100 border border-neutral-300 flex-shrink-0"></div>
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Warm</span>
+              <span class="text-xs text-neutral-400 ml-3">Golden warmth — soft and comforting</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="led" value="bluish" class="accent-neutral-900 w-4 h-4" />
+            <div class="w-5 h-5 bg-blue-100 border border-neutral-300 flex-shrink-0"></div>
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Bluish</span>
+              <span class="text-xs text-neutral-400 ml-3">Cool blue hue — calm and peaceful</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="led" value="soft" class="accent-neutral-900 w-4 h-4" />
+            <div class="w-5 h-5 bg-neutral-100 border border-neutral-300 flex-shrink-0"></div>
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Soft</span>
+              <span class="text-xs text-neutral-400 ml-3">Gentle diffused glow — subtle and serene</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="led" value="symbolic" class="accent-neutral-900 w-4 h-4" />
+            <div class="w-5 h-5 bg-purple-100 border border-neutral-300 flex-shrink-0"></div>
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Symbolic</span>
+              <span class="text-xs text-neutral-400 ml-3">A meaningful tone chosen for its significance — discuss with your advisor</span>
+            </div>
+          </label>
+        </div>
+      </fieldset>
+
+      <!-- FIELDSET 3: Engraving -->
+      <fieldset class="border border-neutral-200 p-5 mb-4">
+        <legend class="text-xs font-semibold text-neutral-500 uppercase tracking-widest px-1">Engraving</legend>
+        <p class="text-xs text-neutral-400 mb-4">Optional engraving on the capsule exterior. Details finalized with your Eterna advisor.</p>
+        <div class="space-y-3">
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="engraving" value="none" class="accent-neutral-900 w-4 h-4" checked />
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">None</span>
+              <span class="text-xs text-neutral-400 ml-3">No engraving — clean exterior</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="engraving" value="first_name" class="accent-neutral-900 w-4 h-4" />
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">First name</span>
+              <span class="text-xs text-neutral-400 ml-3">A personal and intimate touch</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="engraving" value="dates" class="accent-neutral-900 w-4 h-4" />
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Date of birth &amp; passing</span>
+              <span class="text-xs text-neutral-400 ml-3">A lasting record of a life lived</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="engraving" value="word" class="accent-neutral-900 w-4 h-4" />
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Meaningful word</span>
+              <span class="text-xs text-neutral-400 ml-3">A word that defined them — discuss with your advisor</span>
+            </div>
+          </label>
+        </div>
+      </fieldset>
+
+      <!-- FIELDSET 4: Handles -->
+      <fieldset class="border border-neutral-200 p-5 mb-4">
+        <legend class="text-xs font-semibold text-neutral-500 uppercase tracking-widest px-1">Handles</legend>
+        <p class="text-xs text-neutral-400 mb-4">Optional integrated handles for moving and placement by funeral home staff.</p>
+        <div class="space-y-3">
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="handles" value="none" class="accent-neutral-900 w-4 h-4" checked />
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">None</span>
+              <span class="text-xs text-neutral-400 ml-3">No handles — clean, minimalist profile</span>
+            </div>
+          </label>
+          <label class="flex items-center gap-4 p-3 border border-neutral-100 cursor-pointer hover:bg-neutral-50">
+            <input type="radio" name="handles" value="integrated" class="accent-neutral-900 w-4 h-4" />
+            <div class="flex-1">
+              <span class="text-sm font-semibold text-neutral-800">Integrated handles</span>
+              <span class="text-xs text-neutral-400 ml-3">Discreet, flush-mounted handles for easy transport</span>
+            </div>
+          </label>
+        </div>
+      </fieldset>
+
+      <!-- QUOTE NOTE (replaces price display) -->
+      <div class="border-t-2 border-neutral-900 pt-6 mt-6">
+        <div class="flex items-baseline justify-between mb-2">
+          <span class="text-sm text-neutral-500">Pricing</span>
+          <span class="text-base font-semibold text-neutral-700 my-6">Quote will be based on your selection</span>
+        </div>
+        <p class="text-xs text-neutral-400 mb-6">The Capsule Pyrale has no public pricing. A Eterna advisor will prepare a personalized quote based on your choices and situation. No obligation.</p>
+      </div>
+
+      <!-- CTA -->
+      <button type="submit" class="bg-neutral-900 text-white px-8 py-3 font-semibold text-sm hover:bg-neutral-700 w-full">Continue to Quote Request →</button>
+      <a href="funnel-step1.html" class="text-sm text-neutral-400 mt-4 block text-center no-underline hover:text-neutral-600">← Back to Checklist</a>
+
+    </form>
+
+  </main>
+
+  <!-- FUNNEL SIMPLE FOOTER -->
+  <footer class="border-t border-neutral-200 mt-16">
+    <div class="max-w-6xl mx-auto px-8 py-6 flex justify-between items-center">
+      <p class="text-xs text-neutral-400">&copy; 2026 Eterna. All rights reserved.</p>
+      <a href="contact.html" class="text-xs text-neutral-400 no-underline hover:text-neutral-600">Need help? Contact us</a>
+    </div>
+  </footer>
+
+</body>
+</html>
